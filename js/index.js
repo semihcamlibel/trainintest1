@@ -277,7 +277,9 @@ function NavBarClick(carname){
 			document.getElementById("divimage").src = "";
 			allcars = [];
 			var cararrayfunc = cararrayname;
-			
+			for (var i = 0; i < cararrayfunc.length; i++) {
+				document.write(cararrayfunc[i] + "<br>");
+			}
 		}
 	}
 }
